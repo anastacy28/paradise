@@ -1,0 +1,48 @@
+.map-holder {
+	max-width: 100%;
+	height: auto;
+	iframe {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.address-box {
+	min-width: 250px;
+	height: 300px;
+	border: 3px dashed #6b1961;
+	border-radius: 37px;
+	padding: 20px;
+	color: #6b1961;
+	.address a {
+		display: block;
+		color: #6b1961;
+	}
+}
+
+.address-box-title  {
+	display: block;
+	margin-bottom: 20px;
+    text-align: center;
+}
+
+.address li {
+	display: block;
+	margin-bottom: 30px;
+}
+
+ .address-box .contact-list li {
+ 	width: 20px;
+ 	height: 20px;
+ 	background: #ccc;
+ 	padding: 10px;
+ 	display: flex;
+ 	justify-content: center;
+    align-items: center;  
+    border-radius: 20px;  
+ }
+
+ .address-box .contact-list li:last-child {
+ 	border-radius: 4px;
+ 	min-width: 60px; 
+ }

@@ -1,0 +1,17 @@
+.main-content {
+  font-size: 17px;
+  line-height: 23px; }
+
+.bg-yellow {
+  background: rgba(225, 241, 48, 0.4); }
+
+.bg-purple {
+  background: rgba(107, 25, 97, 0.2); }
+
+@media screen and (max-width: 900px) {
+  .main-content {
+    font-size: 14px; } }
+
+@media screen and (max-width: 800px) {
+  .main-content {
+    font-size: 12px; } }

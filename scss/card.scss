@@ -1,0 +1,53 @@
+.card-list {
+	padding: 20px 0;
+	
+}
+
+.card {
+	max-width: 43.3%;
+	padding: 5px 15px;
+    float: left;
+}
+
+.card-item {
+   height: auto;
+   background: #6b1961; 
+   padding: 15px;
+   margin-bottom: 10px;
+   flex-direction: column;
+   color: #f8e017;
+   border-radius: 27px;
+}
+
+.card-title {
+	display: inline-block;
+	font-size: 20px;
+	line-height: 24px;
+	flex-direction: column;
+	margin-bottom: 10px;
+	.step {
+		font-weight: bold;
+
+
+	}
+}
+
+.list-doc {
+	padding-left: 20px;
+	.icon-paste {
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+@media  screen and (max-width: 720px) {
+	.card {
+        max-width: 45.3%;
+  }
+}
+
+@media  screen and (max-width: 658px) {
+	.card {
+        max-width: 96%;
+  }
+}

@@ -1,0 +1,10 @@
+.button {
+  font-size: 1em;
+  line-height: 2em;
+  max-width: 168px;
+  text-align: center;
+  background: #f8e017;
+  color: #6b1961;
+  border-radius: 14px; }
+  .button a {
+    color: #6b1961; }
